@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accessible Application</title>
+</head>
+<body>
+    <a href="#main-content">Skip to main content</a>
+    <header>
+        <h1>Accessible Application</h1>
+        <nav aria-label="Main navigation">
+            <a href="#">Home</a>
+            <a href="#">Dashboard</a>
+            <a href="#">About</a>
+        </nav>
+    </header>
+    <main id="main-content">
+        <section aria-labelledby="welcome-heading">
+            <h2 id="welcome-heading">Welcome</h2>
+            <p>This is the first accessible vertical feature.</p>
+            <button type="button">Start Feature</button>
+        </section>
+    </main>
+    <footer>
+        <p>Accessible Full-Stack Project</p>
+    </footer>
+</body>
+</html>
