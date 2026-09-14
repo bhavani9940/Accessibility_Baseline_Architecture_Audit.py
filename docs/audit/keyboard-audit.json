@@ -1,0 +1,7 @@
+{
+    "website": "https://www.india.gov.in/",
+    "tabs_tested": 0,
+    "focus_targets": [],
+    "status": "Automation failed",
+    "error": "It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead."
+}
